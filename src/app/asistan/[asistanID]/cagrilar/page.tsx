@@ -23,7 +23,7 @@ const page = ({ params }: paramsType) => {
         >
           Yeni Çağrı
         </Link>
-        <Serverside />
+        <Serverside asistanID={params.asistanID}/>
       </div>
     </div>
   );
